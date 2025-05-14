@@ -1,6 +1,6 @@
 ; translate2ascii.asm
 ; Author: Nicholas Todd
-; May 11, 2025
+; May 14, 2025
 ; translates input buffer data into ascii and prints to screen
 ; Assemble with: nasm -f elf32 translate2ascii.asm
 ; Link with:      ld -m elf_i386 -o translate2ascii translate2ascii.o
