@@ -9,6 +9,6 @@ May 14, 2025<br/><br/>
 Assemble with: <br/>
 nasm -f elf32 translate2ascii.asm<br/><br/>
 Link with:      
-ld -m elf_i386 -o translate2ascii translate2ascii.o<br/>
-Run with:<br/><br/>
+ld -m elf_i386 -o translate2ascii translate2ascii.o<br/><br/>
+Run with:<br/>
 translate2ascii
