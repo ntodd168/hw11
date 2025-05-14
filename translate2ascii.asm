@@ -39,6 +39,10 @@ translate_loop:
     mov [edi], al
     inc edi
 
+    ; space
+    mov byte [edi], ' '
+    inc edi
+
     inc esi                 ; go to next 
     loop translate_loop
 
