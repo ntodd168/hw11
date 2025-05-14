@@ -10,3 +10,5 @@ Assemble with: <br/>
 nasm -f elf32 translate2ascii.asm<br/><br/>
 Link with:      
 ld -m elf_i386 -o translate2ascii translate2ascii.o<br/>
+Run with:<br/>
+translate2ascii
