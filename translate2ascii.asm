@@ -8,11 +8,11 @@
 section .data
 inputBuf:    
     db 0x83,0x6A,0x88,0xDE,0x9A,0xC3,0x54,0x9A   ; input bytes, data to be translated
-len     =   $ - inputBuf                         ; compute length start - inputbuffer
+len equ $ - inputBuf                             ; compute length start - inputbuffer
 
 section .bss
 outputBuf:
-    resb 80     ; required buffer
+    resb 80                 ; required buffer
 
 section .text
 global _start
